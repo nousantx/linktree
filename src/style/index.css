@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap");
+
+:root {
+  /* Palette by goodpallete.io */
+
+  /* Primary: Spleen Green */
+  --primary-100: #fbfff2;
+  --primary-200: #ecffb6;
+  --primary-300: #e2fc79;
+  --primary-400: #daf43c;
+  --primary-500: #d3e602;
+  --primary-600: #b1b601;
+  --primary-700: #868100;
+  --primary-800: #564e00;
+  --primary-900: #262100;
+
+  /* Accent: Mystifying Magenta */
+  --accent-100: #fff2fb;
+  --accent-200: #febeed;
+  --accent-300: #f787e1;
+  --accent-400: #e44ecf;
+  --accent-500: #bf1bb2;
+  --accent-600: #990995;
+  --accent-700: #6f0273;
+  --accent-800: #46004d;
+  --accent-900: #210026;
+
+  /* Neutral */
+  --neutral-100: #fcfbfa;
+  --neutral-200: #c1bfbf;
+  --neutral-300: #858484;
+  --neutral-400: #494948;
+  --neutral-500: #262222;
+  --neutral-600: #201d1d;
+  --neutral-700: #1a1818;
+  --neutral-800: #131313;
+  --neutral-900: #0d0d0d;
+
+  /* Neutral */
+  /* --neutral-900: #fcfbfa;
+  --neutral-800: #c1bfbf;
+  --neutral-700: #858484;
+  --neutral-600: #494948;
+  --neutral-500: #262222;
+  --neutral-400: #201d1d;
+  --neutral-300: #1a1818;
+  --neutral-200: #131313;
+  --neutral-100: #0d0d0d; */
+
+  /* Accent: Mystifying Magenta */
+  --primary-100: #fff2fb;
+  --primary-200: #febeed;
+  --primary-300: #f787e1;
+  --primary-400: #e44ecf;
+  --primary-500: #bf1bb2;
+  --primary-600: #990995;
+  --primary-700: #6f0273;
+  --primary-800: #46004d;
+  --primary-900: #210026;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "lexend", sans-serif;
+}
+.hov-links {
+  transition: all 0.4s ease;
+}
+
+.hov-links:hover {
+  /* transition: all 0.3s ease; */
+  transform: scale(1.03);
+  filter: brightness(130%) contrast(120%);
+  text-decoration: none !important;
+}
