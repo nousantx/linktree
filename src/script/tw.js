@@ -1,6 +1,8 @@
 /* 
+ *
  * TenoxUI v0.5 required 
  * Tailwind classes v0.1
+ * (c) 2024 nousantx
  *
  */
 
