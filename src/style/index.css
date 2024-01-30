@@ -36,17 +36,6 @@
   --neutral-800: #131313;
   --neutral-900: #0d0d0d;
 
-  /* Neutral */
-  /* --neutral-900: #fcfbfa;
-  --neutral-800: #c1bfbf;
-  --neutral-700: #858484;
-  --neutral-600: #494948;
-  --neutral-500: #262222;
-  --neutral-400: #201d1d;
-  --neutral-300: #1a1818;
-  --neutral-200: #131313;
-  --neutral-100: #0d0d0d; */
-
   /* Accent: Mystifying Magenta */
   --primary-100: #fff2fb;
   --primary-200: #febeed;
@@ -65,12 +54,12 @@
   padding: 0;
   font-family: "lexend", sans-serif;
 }
+
 .hov-links {
   transition: all 0.4s ease;
 }
 
 .hov-links:hover {
-  /* transition: all 0.3s ease; */
   transform: scale(1.03);
   filter: brightness(130%) contrast(120%);
   text-decoration: none !important;
