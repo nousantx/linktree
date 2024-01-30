@@ -1,3 +1,9 @@
+/* 
+ * TenoxUI v0.5 required 
+ * Tailwind classes v0.1
+ *
+ */
+
 let tenox_lib_style = {
   // Aspect Ratio
   ".aspect-auto": "ratio-auto",
@@ -172,13 +178,14 @@ let tenox_lib_style = {
   ".round, .circle": "br-50%",
 };
 
+// Define new props and properties
 defineProps({
   post: ["position"],
   fwx: ["flex-wrap"],
   rt: ["rotate"],
   bdr: ["border"],
   bim: ["backgroundImage"],
-  // Must add
+  // Needed by Tailwind Classes
   "max-width": ["maxWidth"],
   "min-width": ["minWidth"],
   "max-height": ["maxHeight"],
@@ -187,6 +194,8 @@ defineProps({
   px: ["paddingLeft", "paddingRight"],
 });
 
+// Run the styling
 makeStyles(tenox_lib_style);
 
+// Apply
 tenoxui();
